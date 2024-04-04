@@ -307,8 +307,8 @@ export default async function Home() {
             Designer, full-stack developer, and content creator.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Amy Dutton, a designer and developer 🦄 based in Nashville. I'm
-            currently serving as a Lead Maintainer on the{' '}
+            I&apos;m Amy Dutton, a designer and developer 🦄 based in Nashville.
+            I&apos;m currently serving as a Lead Maintainer on the{' '}
             <a
               href="https://redwoodjs.com"
               className="font-bold underline hover:no-underline"
