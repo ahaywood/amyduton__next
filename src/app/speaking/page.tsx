@@ -66,11 +66,11 @@ export default function Speaking() {
           />
           <Appearance
             href="https://www.postman.com/postcon/"
-            title="Compressed.fm LIVE at Post Con"
-            description=""
+            title="Compressed.fm at Post Con"
+            description="As a co-host of Compressed.fm we conducted several live interviews."
             event="Post Con, April 2024"
             cta="Get Tickets"
-            upcoming={true}
+            upcoming={false}
           />
           <Appearance
             href="https://thatconference.com/"
