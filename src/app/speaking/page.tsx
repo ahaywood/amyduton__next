@@ -57,19 +57,27 @@ export default function Speaking() {
       <div className="space-y-20">
         <SpeakingSection title="Conferences">
           <Appearance
-            href="https://conf.react.dev/"
+            href="https://frontendnation.com/"
+            title="The Future of Frontend"
+            description="Catch up with the Compressed.fm Podcast hosts and discover their views on the future of frontend, including takes on the latest trends, upcoming changes, proposals and so much more for the frontend ecosystem!"
+            event="Frontend Nation, June 2024"
+            cta="Get Tickets"
+            upcoming={false}
+          />
+          <Appearance
+            href="https://www.youtube.com/watch?v=Aa8fSQyfho8"
             title="RedwoodJS, now with React Server Components!"
             description="RedwoodJS, the full-stack, open source, React web application framework, has adopted React Server Components in a major architectural shift. By combining the strengths of SSR, streaming, Suspense, RSCs, and Server Actions, we have created a new version of Redwood that is both simpler and more capable. In this talk I will share the lessons we learned in implementing RSCs on top of Vite, and dig into how Redwood’s approach to RSCs differs from Next.js. Come see how we make data fetching (both client- and server-side) trivial with our unique Cell pattern, how to execute server functions from the client, and how our routes file makes complex URLs easy to manage. I will also reveal our roadmap and future innovations you can expect from the framework!"
             event="React Conf, May 2024"
-            cta="Get Tickets"
-            upcoming={true}
+            cta="Watch the Video"
+            upcoming={false}
           />
           <Appearance
             href="https://www.postman.com/postcon/"
             title="Compressed.fm at Post Con"
             description="As a co-host of Compressed.fm we conducted several live interviews."
             event="Post Con, April 2024"
-            cta="Get Tickets"
+            cta=""
             upcoming={false}
           />
           <Appearance
