@@ -61,8 +61,8 @@ export default function Speaking() {
             title="JavaScript Framework Cage Match"
             description="Over the past year, I built the same SaaS application six different ways: on Next.js Pages Router, Next.js App Router, Remix, RedwoodJS, Astro, and SvelteKit. These frameworks represent a diverse range of options based on different architectural patterns and development philosophies. The primary objective of this project was to document and evaluate the unique features and approaches each framework offers. This talk will showcase valuable insights for developers, businesses, and decision-makers seeking the most suitable framework for their SaaS projects."
             event="Connect.Tech in Atlanta, GA, November 2024"
-            cta="Get Tickets"
-            upcoming={true}
+            cta=""
+            upcoming={false}
           />
           <Appearance
             href="https://momentumdevcon.com/"
