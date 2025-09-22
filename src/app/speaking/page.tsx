@@ -57,6 +57,46 @@ export default function Speaking() {
       <div className="space-y-20">
         <SpeakingSection title="Conferences">
           <Appearance
+            href="https://reactsummit.us/?_gl=1*14o1y10*_gcl_au*MzE0MDk3NTc0LjE3NTg1NjMzOTguMjA3NTcyNjA1Mi4xNzU4NTYzMzk4LjE3NTg1NjM0MDA."
+            title="DX vs. UX: The RSC False Dichotomy"
+            description={`React Server Components face a unique challenge in the React ecosystem: they're powerful, but they're primarily associated with a single framework. This talk examines the broader industry implications of RSC's current adoption pattern and why the technology's success depends on ecosystem-wide support, not just Next.js implementation. We'll explore the real barriers to RSC adoption—from legacy codebase constraints to the substantial engineering investment required—and why these challenges have created a subtle industry narrative that "RSC might not be worth it." This session provides both a technical assessment of RSC's current capabilities and a strategic view of its role in React's future.`}
+            event="React Summit, New York, NY, November 2025"
+            cta="Get Tickets"
+            upcoming={true}
+          />
+          <Appearance
+            href="https://fitc.ca/event/webu25_ip/"
+            title="Beyond The Framework: Rediscovering The Web"
+            description="We’re witnessing a fundamental shift in how we think about web development. After decades of working around platform limitations, a new generation of developers is asking: what if we worked with the platform instead? This isn’t just about performance or bundle size—it’s about rediscovering the elegance and intentionality that was always built into the web’s architecture."
+            event="Web Unleashed, Toronto, ON, October 2025"
+            cta="Get Tickets"
+            upcoming={true}
+          />
+          <Appearance
+            href="https://cfe.dev/events/codeword-conf-2025/"
+            title="10 Minutes of RSC Truth: What Content Developers Actually Need to Know"
+            description="RSC promised better performance and SEO for content sites, but adoption has been slow. We’ll cut through the hype and skepticism to examine what’s working, what isn’t, and what content developers really need to know."
+            event="Codeword Conf, September 2025"
+            cta="Register for Free"
+            upcoming={true}
+          />
+          <Appearance
+            href="https://squiggleconf.com/"
+            title="JavaScript Framework Cage Match"
+            description="I built out the same project in 5 different frameworks: RedwoodJS, NextJS App Router, NextJS Pages Router, Astro, Remix, and SvelteKit. Which JavaScript framework is “the best”? Well, it depends, of course!"
+            event="Squiggle Conf, Boston, MA, September 2025"
+            cta=""
+            upcoming={false}
+          />
+          <Appearance
+            href="https://2024.connect.tech/"
+            title="Staying Human in the Age of AI: What Tech Leaders Need to Preserve"
+            description="While AI tools excel at generating code, they can't navigate the human complexities that make or break technical decisions. As senior engineers, our value increasingly lies not in what we code, but in how we lead teams through technical choices that reflect our values and culture. Through real examples of how values conflicts disguise themselves as technical disagreements, this session explores what tech leaders need to preserve and strengthen as AI reshapes our industry. You'll discover practical tools for uncovering team values and learn to make technical decisions that account for both code and culture in an AI-driven world."
+            event="TechLead, September 2025"
+            cta=""
+            upcoming={false}
+          />
+          <Appearance
             href="https://2024.connect.tech/"
             title="JavaScript Framework Cage Match"
             description="Over the past year, I built the same SaaS application six different ways: on Next.js Pages Router, Next.js App Router, Remix, RedwoodJS, Astro, and SvelteKit. These frameworks represent a diverse range of options based on different architectural patterns and development philosophies. The primary objective of this project was to document and evaluate the unique features and approaches each framework offers. This talk will showcase valuable insights for developers, businesses, and decision-makers seeking the most suitable framework for their SaaS projects."
