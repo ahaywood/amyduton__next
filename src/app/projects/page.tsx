@@ -22,15 +22,15 @@ const projects = [
     link: { href: 'https://compressed.fm', label: 'compressed.fm' },
     logo: compressedLogo,
   },
-  {
-    name: 'Conference Badge Application',
-    description: 'A badge application for the RedwoodJS conference.',
-    link: {
-      href: 'https://ticket.redwoodjs.com/',
-      label: 'ticket.redwoodjs.com',
-    },
-    logo: redwoodLogo,
-  },
+  // {
+  //   name: 'Conference Badge Application',
+  //   description: 'A badge application for the RedwoodJS conference.',
+  //   link: {
+  //     href: 'https://ticket.redwoodjs.com/',
+  //     label: 'ticket.redwoodjs.com',
+  //   },
+  //   logo: redwoodLogo,
+  // },
   {
     name: 'Advent of CSS (2021)',
     description: '24 CSS Challenges for the Season',
