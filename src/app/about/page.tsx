@@ -75,8 +75,8 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               I currently live outside of Nashville with my husband and our
-              three adorable (if I do say so myself) kids: Isaac (9), Adele (8),
-              and Emma (6). As if things weren’t exciting enough, we also
+              three adorable (if I do say so myself) kids: Isaac (11), Adele (9),
+              and Emma (8). As if things weren’t exciting enough, we also
               adopted a retired racing greyhound and a King Charles Cavalier
               Spaniel.
             </p>{' '}
