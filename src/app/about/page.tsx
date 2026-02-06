@@ -85,7 +85,7 @@ export default function About() {
               AppleTV (all the streaming!), playing Settlers or Nertz, or
               reading and drinking coffee.
             </p>
-            <h2 className="mb-4 mt-20 text-xl font-bold leading-loose text-white">
+            <h2 className="mb-4 mt-20 text-xl font-bold leading-loose dark:text-white">
               Short Story Long
             </h2>
             <p>
