@@ -61,7 +61,7 @@ export default function Speaking() {
             title="DX vs. UX: The RSC False Dichotomy"
             description={`React Server Components face a unique challenge in the React ecosystem: they're powerful, but they're primarily associated with a single framework. This talk examines the broader industry implications of RSC's current adoption pattern and why the technology's success depends on ecosystem-wide support, not just Next.js implementation. We'll explore the real barriers to RSC adoption—from legacy codebase constraints to the substantial engineering investment required—and why these challenges have created a subtle industry narrative that "RSC might not be worth it." This session provides both a technical assessment of RSC's current capabilities and a strategic view of its role in React's future.`}
             event="React Summit, New York, NY, November 2025"
-            cta="Get Tickets"
+            cta=""
             upcoming={false}
           />
           <Appearance
@@ -69,7 +69,7 @@ export default function Speaking() {
             title="Beyond The Framework: Rediscovering The Web"
             description="We’re witnessing a fundamental shift in how we think about web development. After decades of working around platform limitations, a new generation of developers is asking: what if we worked with the platform instead? This isn’t just about performance or bundle size—it’s about rediscovering the elegance and intentionality that was always built into the web’s architecture."
             event="Web Unleashed, Toronto, ON, October 2025"
-            cta="Get Tickets"
+            cta=""
             upcoming={false}
           />
           <Appearance
@@ -77,7 +77,7 @@ export default function Speaking() {
             title="10 Minutes of RSC Truth: What Content Developers Actually Need to Know"
             description="RSC promised better performance and SEO for content sites, but adoption has been slow. We’ll cut through the hype and skepticism to examine what’s working, what isn’t, and what content developers really need to know."
             event="Codeword Conf, September 2025"
-            cta="Register for Free"
+            cta=""
             upcoming={false}
           />
           <Appearance
