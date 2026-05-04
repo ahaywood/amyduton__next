@@ -13,7 +13,6 @@ import {
 } from '@/components/SocialIcons'
 import logoAhha from '@/images/logos/ahha.jpeg'
 import logoLifeway from '@/images/logos/lifeway.jpeg'
-import logoPwv from '@/images/logos/pwv.jpeg'
 import logoZeal from '@/images/logos/zeal.jpeg'
 import logoBriefcase from '@/images/logos/briefcase.svg'
 import image1 from '@/images/photos/image-1.jpg'
@@ -165,6 +164,8 @@ function Role({ role }: { role: Role }) {
             src={role.logo}
             alt=""
             className="h-7 w-7 rounded-full"
+            width={28}
+            height={28}
             unoptimized
           />
         ) : (
@@ -197,14 +198,28 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Preston-Werner Ventures',
-      title: 'Lead Maintainer on the RedwoodJS Core Team',
-      logo: logoPwv,
-      start: '2023',
+      company: 'Cloudflare',
+      title: 'Senior Design Engineer',
+      logo: '/images/cloudflare.png',
+      start: '2026',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
+    },
+    {
+      company: 'G2i',
+      title: 'Engineering Manager',
+      logo: '/images/g2i.png',
+      start: '2025',
+      end: '2025',
+    },
+    {
+      company: 'Preston-Werner Ventures',
+      title: 'Lead Maintainer on the RedwoodJS Core Team',
+      logo: '/images/pwv.png',
+      start: '2023',
+      end: '2025',
     },
     {
       company: 'Ah Ha Creative, LLC',
